@@ -453,6 +453,7 @@ useEffect(()=>{
   fetch("https://us-west2-aiplatform.googleapis.com/v1/projects/test-project-361021/locations/us-west2/endpoints/3185417127062405120:predict",{
     method: 'POST',
     headers:{
+      'Authorization': 'Bearer ya29.a0AVA9y1vNO_42zMTAcxhJMTUpmvpeD8dUv6kfAeNz_ABtd5MD6K-utNMVRJTpuACGzfyjdJa6iMcMQp_e1rZO0Z8hGrYtO5HCSXx7ha_s-AIO9ZnF3kHCS12a5U4JHviZuqu-Z5EIJdzBNshIoG1ly1ah8p54Aq8NSfBB0MUaCgYKATASAQASFQE65dr8k5cSdIi1aY8RdlwoZvN8_g0174',
       'Content-Type': 'application/json'
     },
     body:JSON.stringify({
